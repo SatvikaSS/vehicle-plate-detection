@@ -1,4 +1,4 @@
-# 🚗 Vehicleand License Plate Detection App
+# 🚗 Vehicle and License Plate Detection App
 
 A **Streamlit web app** that detects vehicles, identifies license plates, and extracts vehicle details such as **Number Plate, Vehicle Type, and Colour of Vehicle** using **YOLOv8**, **OpenCV**, and **EasyOCR**.
 
