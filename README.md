@@ -62,12 +62,12 @@ vehicle-plate-detection/
 ```
 ---
 
-## 🎯Models Used:
--YOLOv8n (Ultralytics) → Used for detecting vehicles such as cars, buses, trucks, and motorbikes.
--Custom YOLO model (license_plate_detector2) → Trained specifically to detect license plates.
--EasyOCR → Performs Optical Character Recognition (OCR) to read the license plate text.
--KMeans (from scikit-learn) → Clusters colors in the detected vehicle region to estimate the dominant vehicle color.
--This system combines object detection, OCR and color analysis to provide a complete vehicle recognition pipeline.
+## 🎯Models Used
+- YOLOv8n (Ultralytics) → Used for detecting vehicles such as cars, buses, trucks, and motorbikes.
+- Custom YOLO model (license_plate_detector2) → Trained specifically to detect license plates.
+- EasyOCR → Performs Optical Character Recognition (OCR) to read the license plate text.
+- KMeans (from scikit-learn) → Clusters colors in the detected vehicle region to estimate the dominant vehicle color.
+- This system combines object detection, OCR and color analysis to provide a complete vehicle recognition pipeline.
 
 ---
 
