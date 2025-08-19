@@ -1,8 +1,10 @@
 streamlit
-pandas
-numpy
-opencv-python-headless
 ultralytics
 easyocr
-scikit-learn
+opencv-python-headless
+numpy
+pandas
+Pillow
 matplotlib
+scikit-learn
+
