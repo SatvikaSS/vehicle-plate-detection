@@ -59,10 +59,10 @@ vehicle-plate-detection/
 ├── models/                         
 │   ├── yolov8n.pt
 │   └── best.pt ##license_plate_detector.pt
-
+```
 ---
 
-##🎯Models Used:
+## 🎯Models Used:
 -YOLOv8n (Ultralytics) → Used for detecting vehicles such as cars, buses, trucks, and motorbikes.
 -Custom YOLO model (license_plate_detector2) → Trained specifically to detect license plates.
 -EasyOCR → Performs Optical Character Recognition (OCR) to read the license plate text.
