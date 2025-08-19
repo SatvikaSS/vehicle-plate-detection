@@ -1,7 +1,8 @@
 streamlit
+pandas
+numpy
 opencv-python-headless
 ultralytics
 easyocr
 scikit-learn
 matplotlib
-pillow
