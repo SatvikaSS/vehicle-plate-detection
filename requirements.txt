@@ -1,10 +1,11 @@
 streamlit
-ultralytics
-easyocr
-opencv-python-headless
+ultralytics==8.0.196
+easyocr==1.7.1
+opencv-python-headless==4.8.1.78
 numpy
 pandas
 Pillow
 matplotlib
 scikit-learn
+
 
