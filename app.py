@@ -19,8 +19,8 @@ st.set_page_config(page_title="Vehicle Recognition", layout="wide")
 # -----------------------------
 @st.cache_resource
 def load_models():
-    plate_model = YOLO("runs/detect/license_plate_detector2/weights/best.pt")
-    vehicle_model = YOLO("yolov8n.pt")
+    plate_model = YOLO("models/best.pt")
+    vehicle_model = YOLO("models/yolov8n.pt")
     reader = easyocr.Reader(['en'], gpu=False)
     return plate_model, vehicle_model, reader
 
